@@ -1,14 +1,13 @@
-package jpabook.jpashop.domain.controller;
+package jpabook.jpashop.controller;
 
 import jpabook.jpashop.domain.Order;
 import jpabook.jpashop.domain.Member;
 import jpabook.jpashop.domain.item.Item;
-import jpabook.jpashop.domain.repository.OrderSearch;
+import jpabook.jpashop.repository.OrderSearch;
 import jpabook.jpashop.service.ItemService;
 import jpabook.jpashop.service.MemberService;
 import jpabook.jpashop.service.OrderService;
 import lombok.RequiredArgsConstructor;
-import net.bytebuddy.implementation.bind.annotation.Pipe;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;

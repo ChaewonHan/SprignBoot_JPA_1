@@ -1,4 +1,4 @@
-package jpabook.jpashop.domain.repository;
+package jpabook.jpashop.repository;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
